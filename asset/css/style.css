@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --basic: ;
+}
+
 main {
     background-color: rgba(8,59,76,255);
     font-family: 'Montserrat', sans-serif;
@@ -9,7 +19,32 @@ h1 {
     text-align: center;
 }
 
-div#container {
+div#container_number {    
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 30px;
     width: 80%;
     margin: auto;
+    padding: 50px 0;
+}
+
+div#container_number > p{
+    padding: 30px 0;
+    text-align: center;
+}
+
+.basic {
+    background-color: rgb(19, 137, 178);
+}
+
+.fizz {
+    background-color: rgb(11, 214, 161);
+}
+
+.buzz {
+    background-color: rgb(255, 209, 102);
+}
+
+.fizzbuzz {
+    background-color: rgb(240, 70, 111);
 }
