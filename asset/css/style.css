@@ -1,0 +1,15 @@
+main {
+    background-color: rgba(8,59,76,255);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    color: #fff;
+    text-align: center;
+}
+
+div#container {
+    width: 80%;
+    margin: auto;
+}
