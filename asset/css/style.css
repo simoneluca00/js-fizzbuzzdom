@@ -4,14 +4,10 @@
     box-sizing: border-box;
 }
 
-:root {
-    --basic: ;
-}
-
 main {
     background-color: rgba(8,59,76,255);
     font-family: 'Montserrat', sans-serif;
-}
+}   
 
 h1 {
     color: #fff;
